@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto2</title>
+
+</head>
+<style>
+ 
+    body{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Montserrat, sans-serif;
+        background: white;
+
+    }
+    button{
+        margin: 5px;
+        width: 120px;
+        height: 50px;
+       
+        font-size: 1.1rem;
+        background: white;
+        
+        border-color: black;
+        border-radius: 5px;
+    }
+    .Contenedor{
+        display:flex;
+        width: 300px;
+        height: 320px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        background: white;
+       
+    }
+    
+    .cont{
+        color:yellow;
+    }
+    .titulo{
+        font-size: 3rem;
+        font-family: Optima;
+     
+    }
+    .cont{
+        font-size: 5rem;
+    }
+    .Botones{
+        margin-top: 10px;
+        padding: 5px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+
+    <div class="Contenedor">
+    <p class = "titulo"> Contador </p>
+    <p class="cont" id="conte">0 </p>
+
+    <div2 class="Botones">
+
+        <button class= "incr" id = "incre">Incrementar</button>
+        <button class= "reset" id = "resete">Reset </button>
+        <button class= "dis" id = "dise"> Disminuir</button>
+    </div2>
+    </div>    
+    
+<script src="main.js"></script>
+</body>
+</html>
